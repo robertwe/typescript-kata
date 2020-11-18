@@ -2,7 +2,7 @@ module.exports = {
   coverageDirectory: 'coverage',
   globals: {
     'ts-jest': {
-      tsConfig: 'tsconfig.json',
+      tsconfig: 'tsconfig.json',
     },
   },
   moduleFileExtensions: [
@@ -12,7 +12,7 @@ module.exports = {
   ],
   testEnvironment: 'node',
   testMatch: [
-    '**/__tests__/*.+(ts|tsx|js)',
+    '**/tests/*.+(ts|tsx|js)',
   ],
   testPathIgnorePatterns: [
     '/node_modules/',
